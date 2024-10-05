@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: hsla(104, 16%, 32%, 0.863);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.stopwatch-container {
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#time-display {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #777;
+}
+
+#laps-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#laps-list {
+    list-style-type: none;
+    padding-left: 0;
+}
